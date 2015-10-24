@@ -19,7 +19,7 @@ public class photoController {
 
         GpioController gpio = GpioFactory.getInstance();
 
-        GpioPinAnalogInput photoresistor = gpio.provisionAnalogInputPin(RaspiPin.GPIO_00, "Fotoresistencia");
+        GpioPinAnalogInput photoresistor = gpio.provisionAnalogInputPin(RaspiPin.GPIO_01, "Fotoresistencia");
 
 
         return (photoresistor);
